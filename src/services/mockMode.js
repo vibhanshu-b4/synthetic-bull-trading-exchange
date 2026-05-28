@@ -1,6 +1,6 @@
-const raw = String(import.meta.env.VITE_USE_MOCKS || '').toLowerCase();
+const raw = String(import.meta.env.VITE_USE_MOCKS ?? 'true').toLowerCase();
 
-export const USE_MOCKS = raw === 'true' || raw === '1' || raw === 'yes';
+export const USE_MOCKS = !['false', '0', 'no'].includes(raw);
 
 export const MOCK_AUTH = {
   access_token: 'mock-token',

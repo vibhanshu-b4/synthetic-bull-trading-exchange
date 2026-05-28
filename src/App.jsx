@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import Header from './components/Header/Header';
 import MarketWatch from './components/MarketWatch/MarketWatch';
 import ChartGrid from './components/ChartGrid/ChartGrid';
-import OrderBook from './components/OrderBook/OrderBook';
+import OrderBook from './components/orderbook/OrderBook';
 import PlaceOrder from './components/PlaceOrder/PlaceOrder';
 import UserPanel from './components/UserPanel/UserPanel';
 import AuthModal from './components/AuthModal/AuthModal';
