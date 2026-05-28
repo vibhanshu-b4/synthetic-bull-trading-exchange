@@ -3,6 +3,7 @@
 This is the trading dashboard UI built with React + Vite. It can run in two modes:
 
 - Demo mode (mock data only, no backend required)
+  https://synthetic-bull-trading-exchange.vercel.app/trading-charts
 - Live mode (connected to a backend REST + WebSocket service)
 
 ## Requirements
